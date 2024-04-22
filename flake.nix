@@ -35,10 +35,10 @@
                 version = version;
 
                 src = nixpkgsFor.${system}.fetchFromGitHub {
-                  owner = "khaneliman";
-                  repo = "sddm-catppuccin";
-                  rev = "7b7a86ee9a5a2905e7e6623d2af5922ce890ef79";
-                  hash = "sha256-sTnt8RarNXz3RmYfmx4rD+nMlY8rr2n0EN3ntPzOurw=";
+                  owner = "Kevin-2483";
+                  repo = "catppuccin-sddm-corners-custom";
+                  rev = "1b604de7580c99d6a68811bacc260125048d3a96";
+                  hash = "sha256-irgajksbXBlifaaz2+EZrF8UrM52ZgPPDKwOH53OUvM=";
                 };
 
                 dontConfigure = true;
