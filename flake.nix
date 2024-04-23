@@ -37,8 +37,8 @@
                 src = nixpkgsFor.${system}.fetchFromGitHub {
                   owner = "Kevin-2483";
                   repo = "catppuccin-sddm-corners-custom";
-                  rev = "1b604de7580c99d6a68811bacc260125048d3a96";
-                  hash = "sha256-irgajksbXBlifaaz2+EZrF8UrM52ZgPPDKwOH53OUvM=";
+                  rev = "7b1186a2a8ebf26b3a00f8b916cbfb40adb676f5";
+                  hash = "sha256-nhfXrEv9L7VG8KBJpfA/SO2r05y2sHMnJwoofThDDQM=";
                 };
 
                 dontConfigure = true;
